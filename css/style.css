@@ -1,3 +1,23 @@
+@media screen and (min-width: 1000px) {
+  .body {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+ body  {
+   background-color: grey;
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: teal;
+    }
+  }
+
+
+}
 .basketball-blogs{
   color: brown;
   font-weight:bolder;
@@ -9,6 +29,7 @@
 
 .About-Me{
   color: red;
+  float: left;
 }
 
 .p1{
